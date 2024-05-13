@@ -1,0 +1,51 @@
+/* Write your CSS here */
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+.head1 {
+  font-family: Roboto;
+  font-size: 32px;
+  color: white;
+}
+.img1 {
+  height: 200px;
+}
+.para1 {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #cbd5e1;
+  margin-bottom: 30px;
+}
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  height: 30px;
+  width: 100px;
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #0b69ff;
+  border: 0px;
+  border-radius: 5px;
+  font-family: Roboto;
+  color: white;
+}
+.btn2 {
+  height: 30px;
+  width: 110px;
+  margin-right: 60px;
+  background-color: transparent;
+  color: #94a3b8;
+  font-family: Roboto;
+  border-radius: 5px;
+  border: 2px solid #94a3b8;
+}
